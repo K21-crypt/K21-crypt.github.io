@@ -34,6 +34,3 @@
 - **MySQL Injection**: The reverse shell payload inserted into the `library` database will execute when the `death` user runs the query.
 - **Python Payload**: The `restore.py` file will execute the reverse shell if the script is triggered, giving you a reverse shell as `morpheus`.
 - done.
-
-                                      
-                                      
