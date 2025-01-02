@@ -8,7 +8,7 @@ disableHLJS: true
 robotsNoIndex: true
 hideMeta: true
 ShowBreadCrumbs: false
-description:  I’m K21.I am love haking.
+description:  I’m K21.I love haking.
 # edit_post: false
 # weight: 1
 ---
@@ -49,7 +49,7 @@ Check out my GitHub for hacking tools,there is nothing.yeah serously.
 ---
 
 ### **Ask Me About**
-- Nothing,I donk know anything.
+- Nothing,I don't know anything.
 ---
 
 ### **Hit Me Up**
