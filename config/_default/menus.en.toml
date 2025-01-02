@@ -21,9 +21,9 @@
   weight = 20
 
 [[main]]
-  name = "write-up"
- # parent = "write-up"
-  pageRef = "write-up"
+  name = "writeups"
+ # parent = "writeups"
+  pageRef = "writeups"
   weight = 20
 
 [[main]]
