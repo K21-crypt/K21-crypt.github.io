@@ -1,57 +1,20 @@
----
-title: "Intro"
-draft: false
-searchHidden: true
-ShowToc: false
-ShowReadingTime: false
-disableHLJS: true
-robotsNoIndex: true
-hideMeta: true
-ShowBreadCrumbs: false
-description:  I’m K21.I love haking.
-# edit_post: false
-# weight: 1
----
+# Introduction
 
-~~~
- ___  ____   _____   __    
-|_  ||_  _| / ___ `./  |   
-  | |_/ /  |_/___) |`| |   
-  |  __'.   .'____.' | |   
- _| |  \ \_/ /_____ _| |_  
-|____||____|_______|_____| 
-                           
+## Personal Background
+Hello! I'm a passionate learner and problem-solver, especially drawn to challenges that require deep thinking and a methodical approach. My journey has led me to various domains, but I have a particular interest in cybersecurity, cryptography, and OSINT (Open-Source Intelligence).
+
+## Interests
+- **Cybersecurity**: I enjoy playing CTFs (Capture The Flag) and solving medium-level cryptography challenges. I thrive on uncovering hidden details and understanding complex systems.
+- **Programming**: Exploring programming concepts, especially those tied to security and encryption, is my forte.
+- **Learning**: I'm committed to improving my skills and diving deeply into the "why" behind every solution, not just the "how."
 
 
+## Tools and Skills
+- Proficient in various CTF-related utilities.
+- Comfortable with OSINT research and forensic analysis.
 
-~~~
+## Achievements
+- Living.
 
----
-
-## **Security Researcher**
-
-- Deep into crypto, unraveling complex challenges, and mastering cryptographic techniques.
-Obsessed with OSINT, exploring every clue and piecing together hidden information from the digital world.
-
----
-
-### **What I’m Grinding On**
--     Crypto Challenges & OSINT: Cracking ciphers and uncovering hidden truths.
-    Web Exploits & Network Hacks: Finding vulnerabilities and testing limits.
-    Building Tools: Crafting solutions that are fast, efficient, and resilient.
-
-
-### **Stuff I’m Building**
-Check out my GitHub for hacking tools,there is nothing.yeah serously.
-
-[GitHub Portfolio](https://github.com/K21-crypt)
-
----
-
-### **Ask Me About**
-- Nothing,I don't know anything.
----
-
-### **Hit Me Up**
-Email: `k21[@]ncateam.xyz`
-                                         
+## Learning Approach
+I prefer concise, step-by-step explanations and appreciate clarity in concepts. My ultimate goal is to become a well-rounded cybersecurity professional who can confidently tackle challenges and contribute to the community.
