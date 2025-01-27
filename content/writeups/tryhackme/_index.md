@@ -1,5 +1,5 @@
-Title: "TryHackMe"
-description: TryHackMe is an interactive online platform designed to teach cybersecurity concepts and practical skills through guided lessons and Capture the Flag (CTF) challenges.
+"TryHackMe"
+description:TryHackMe is an interactive online platform designed to teach cybersecurity concepts and practical skills through guided lessons and Capture the Flag (CTF) challenges.
 summary: Write-ups and insights about TryHackMe challenges.
 weight: 2
 hidemeta: true
