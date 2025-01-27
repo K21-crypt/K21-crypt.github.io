@@ -1,36 +1,5 @@
-ssh-keygen -t ed25519 -C "your_email@example.com"
-
-ssh -T git@github.com
-
-┌──(k21㉿zerosec)-[~/Blog/K21/static]
-└─$ git add .              
-                                                                                                      
-┌──(k21㉿zerosec)-[~/Blog/K21/static]
-└─$ git commit -m "commit1"
-[main da79e7d] commit1
- 8 files changed, 1 insertion(+)
- create mode 100644 static/android-chrome-192x192.png
- create mode 100644 static/android-chrome-512x512.png
- create mode 100644 static/apple-touch-icon.png
- create mode 100644 static/favicon-16x16.png
- create mode 100644 static/favicon-32x32.png
- create mode 100644 static/favicon.ico
- create mode 100644 static/favicon_io.zip
- create mode 100644 static/site.webmanifest
-                                                                                                      
-┌──(k21㉿zerosec)-[~/Blog/K21/static]
-└─$ git push -u origin main
-Enumerating objects: 12, done.
-Counting objects: 100% (12/12), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (11/11), done.
-Writing objects: 100% (11/11), 231.32 KiB | 802.00 KiB/s, done.
-Total 11 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (5/5), completed with 1 local object.
-To github.com:K21-crypt/K21-crypt.github.io.git
-   915326b..da79e7d  main -> main
-branch 'main' set up to track 'origin/main'.
-                                                                                                      
-┌──(k21㉿zerosec)-[~/Blog/K21/static]
-└─$ 
+ssh-keygen -t ed25519 -C "karunstha859@gmailo.com"
+git add .
+git commit -m hello
+git push origin mainhello
 
