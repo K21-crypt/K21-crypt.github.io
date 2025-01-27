@@ -21,8 +21,8 @@ disableImageOptimization = true
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "img/background.jpg" # used as default for background images 
-defaultFeaturedImage = "img/background.jpg" # used as default for featured images in all articles
+defaultBackgroundImage = "img/back.jpg" # used as default for background images 
+defaultFeaturedImage = "img/back.jpg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -43,7 +43,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/background.jpg" # used in: hero, and card
+  homepageImage = "img/back.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
