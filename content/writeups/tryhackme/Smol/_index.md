@@ -2,7 +2,7 @@
 title: "Smol"
 date: 2025-01-27
 draft: false
-Tags: tryhackme,writeup
+Tags: tryhackme
 Tryhackme
 ---
 
