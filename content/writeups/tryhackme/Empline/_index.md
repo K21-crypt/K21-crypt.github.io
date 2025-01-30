@@ -6,7 +6,7 @@ description: TryHackMe's good room.
 
 
 
-## Enemuration
+## Enumeration
 
 ```
  rustscan -a 10.10.36.254
