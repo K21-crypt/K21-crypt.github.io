@@ -1,11 +1,13 @@
 ---
-title: "Smol(tryhackme)"
-description: Tryhackme latest room.
-
+title: "Smol"
+date: 2024-12-24
+draft: false
+description: TryHackMe's Easy Room
+Tags:
+- TryHackMe
+- Linux
+- Medium
 ---
-
-
-
 
 
 # Smol
