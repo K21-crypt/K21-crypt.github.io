@@ -1,3 +1,13 @@
+---
+title: "Smol(tryhackme)"
+description: Tryhackme latest room.
+
+---
+
+
+
+
+
 # Smol
 
 ## Enemuration
