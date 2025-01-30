@@ -7,5 +7,5 @@ hidemeta: true
 cascade:   
     showDate: false
 ---
-Sweets writeups for you ;).
+Sweet writeups for you ;).
 
