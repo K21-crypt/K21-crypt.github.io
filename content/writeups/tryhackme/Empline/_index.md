@@ -1,10 +1,15 @@
 ---
 title: "Empline"
-description: TryHackMe's good room.
-
+date: 2024-12-24
+draft: false
+description: TryHackMe's Easy Room 
+Tags:
+- TryHackMe
+- Linux
+- Easy
 ---
 
-
+# Empline
 
 ## Enumeration
 
