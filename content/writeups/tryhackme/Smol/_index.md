@@ -10,7 +10,7 @@ description: Tryhackme latest room.
 
 # Smol
 
-## Enemuration
+## Enumeration
 
 ```
  nmap -sVC 10.10.89.149
