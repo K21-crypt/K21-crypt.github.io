@@ -145,7 +145,7 @@ And we decrypted that `credential.pgp`.
 Hmm now lets try to become root.
 And we can see something.
 ![](Pasted%20image%2020250212155329.png)
-Now I immediately go to.
+Now I immediately goes to.
 [[https://gtfobins.github.io/gtfobins/zip/#sudo]]
 
 And got this.
