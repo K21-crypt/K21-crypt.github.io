@@ -1,3 +1,15 @@
+---
+title: "tomghost"
+date: 2024-12-24
+draft: false
+description: TryHackMe's Good Room
+Tags:
+- TryHackMe
+- Linux
+- Easy
+---
+
+
 
 ## Enumeration
 
