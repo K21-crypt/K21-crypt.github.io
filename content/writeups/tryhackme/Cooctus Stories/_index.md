@@ -1,3 +1,15 @@
+---
+title: "Cooctus Stories"
+date: 2025-2-15
+draft: false
+description: TryHackMe's Medium Room 
+Tags:
+- TryHackMe
+- Linux
+- Medium
+---
+
+# Cooctus Stories
 ## Enumeration
 ```
  rustscan -a 10.10.7.155
@@ -106,6 +118,8 @@ And we got the credentials.bak.
 paradoxial.test
 ShibaPretzel79
 ```
+## Exploit
+
 And we logged in successfully.
 ![](Pasted%20image%2020250215200510.png)
 So its saying we can test a payload and then i tried this.
@@ -126,6 +140,9 @@ Now lets try to get a reverse shell.
 
 And we got it.
 ![](Pasted%20image%2020250215201754.png)
+
+## Privilege Escalation
+
 After this, we can see this.
 ![](Pasted%20image%2020250215202239.png)
 And,
@@ -336,6 +353,8 @@ And we are root.
 But where is a root flag.
 Ohh it just appears when we get logged as root.
 ![](Pasted%20image%2020250215222008.png)
+
+## Complete
 
 And done.
 ![](Pasted%20image%2020250215222116.png)
