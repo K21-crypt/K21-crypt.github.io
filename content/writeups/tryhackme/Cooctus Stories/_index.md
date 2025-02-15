@@ -9,7 +9,6 @@ Tags:
 - Medium
 ---
 
-# Cooctus Stories
 ## Enumeration
 ```
  rustscan -a 10.10.7.155
