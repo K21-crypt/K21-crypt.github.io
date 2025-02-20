@@ -1,3 +1,14 @@
+---
+title: "Lumberjack Turtle"
+date: 2025-2-20
+draft: false
+description: TryHackMe's Medium Room 
+Tags:
+- TryHackMe
+- Linux
+- Medium
+---
+
 ## Enumeration
 
 Lets do the simple port scan.
