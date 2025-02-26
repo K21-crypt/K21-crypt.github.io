@@ -1,3 +1,18 @@
+---
+title: "The Server From Hell"
+date: 2025-2-27
+draft: false
+description: TryHackMe's Good Room
+Tags:
+- TryHackMe
+- Linux
+- Medium
+---
+
+
+**Lets start with enumeration.**
+**Port scan**
+
 ![](Pasted%20image%2020250226174343.png)
 
 And we can see this.
