@@ -206,7 +206,7 @@ After long time of search,we could edit build step and do like this.
 ![](Pasted%20image%2020250302190905.png)
 
 Hmm lets select command line.
-lets same this.
+lets save this.
 ![](Pasted%20image%2020250302191121.png)
 ![](Pasted%20image%2020250302191143.png)
 
