@@ -321,7 +321,7 @@ Hmm so what we are gonna do here is exploit that process.
 By `--checkpoint-action` feature of tar.
 To understand this you can do chatGPT or can find many documents.
 
-[[https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa]]
+https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa
 this can explain it in detain.
 
 And one more thing,we could exploit this because of the use of wildcard`*`.
@@ -382,7 +382,7 @@ And we can now do ssh as root with a private key.
 ![](Pasted%20image%2020250306152340.png)
 
 If you want to learn about private keys and public keys and how it works,you can check out this series.
-[[https://www.youtube.com/watch?v=JV9Yei8QiP0]] (more videos are comming soon).
+https://www.youtube.com/watch?v=JV9Yei8QiP0 (more videos are comming soon).
 
 ## Done
 
