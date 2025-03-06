@@ -196,8 +196,9 @@ And executing that gave us a reverse shell.
 ![](Pasted%20image%2020250306140031.png)
 
 ```
-Note:you can upload a rev shell form revshell.com(perfer pentest monkey) or you can go here. 
-https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
+Note:you can upload a rev shell form revshell.com(perfer pentest monkey) or you can go here.
+
+[php reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
 
 -you need to change the ip and port according to you.
 ```
@@ -205,7 +206,8 @@ https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell
 So we got the shell.
 Lets again enumerate.
 But first of all,lets get a good stable shell.
-[[https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/full-ttys.html]]
+
+[full tty shell](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/full-ttys.html)
 
 ```
 1.python3 -c 'import pty; pty.spawn("/bin/bash")'
@@ -303,7 +305,8 @@ Hmm interesting.
 
 But we will surely see this if we don't find other interesting things.
 But we can see crontab to see what is running is cron.
-[[https://en.wikipedia.org/wiki/Cron]]
+
+[cron](https://en.wikipedia.org/wiki/Cron)
 you can check this.
 
 And doing `cat /etc/crontab` revealed something.
@@ -321,7 +324,8 @@ Hmm so what we are gonna do here is exploit that process.
 By `--checkpoint-action` feature of tar.
 To understand this you can do chatGPT or can find many documents.
 
-https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa
+[Exploiting tar with wildcard](https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa)
+
 this can explain it in detain.
 
 And one more thing,we could exploit this because of the use of wildcard`*`.
@@ -382,7 +386,9 @@ And we can now do ssh as root with a private key.
 ![](Pasted%20image%2020250306152340.png)
 
 If you want to learn about private keys and public keys and how it works,you can check out this series.
-https://www.youtube.com/watch?v=JV9Yei8QiP0 (more videos are comming soon).
+
+[videos explaining private key and public key](https://www.youtube.com/watch?v=JV9Yei8QiP0) (more videos are coming soon).
+
 
 ## Done
 
