@@ -159,7 +159,7 @@ Lets try to login.
 and we were successful.
 And its using clipbucket.
 Might be vulnerable.
-[[https://www.exploit-db.com/exploits/44250]]
+[ClipBucket Exploit](https://www.exploit-db.com/exploits/44250)
 
 ![](Pasted%20image%2020250306133155.png)
 
