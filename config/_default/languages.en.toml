@@ -12,7 +12,7 @@ title = "K21"
   #logo = "img/images.jpeg"
   #secondaryLogo = "img/images.jpeg"
   description = "Welcome"
-  copyright = "&copy; 2024 K21 | All Rights Reserved"
+  copyright = "&copy; 2025 K21 | All Rights Reserved"
 
 [params.author]
   name = "K21"
@@ -28,8 +28,8 @@ title = "K21"
 #     { apple = "https://www.apple.com" },
 #     { blogger = "https://username.blogspot.com/" },
 #     { bluesky = "https://bsky.app/profile/username" },
-#     { codepen = "https://codepen.io/username" },
-#     { dev = "https://dev.to/username" },
+     { hackthebox = "https://app.hackthebox.com/profile/2049605" },
+     { tryhackme = "https://tryhackme.com/SzIxCg/" },
      { discord = "https://discord.com/user/1263336663363620988" },
 #     { dribbble = "https://dribbble.com/username" },
 #     { facebook = "https://facebook.com/username" },
