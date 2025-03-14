@@ -1,21 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tryhackme on K21</title>
+    <title>TryHackMe on K21</title>
     <link>http://localhost:1313/tags/tryhackme/</link>
-    <description>Recent content in Tryhackme on K21</description>
+    <description>Recent content in TryHackMe on K21</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>k21[@]ncateam.xyz (K21)</managingEditor>
     <webMaster>k21[@]ncateam.xyz (K21)</webMaster>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empline</title>
+      <link>http://localhost:1313/writeups/tryhackme/empline/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/empline/</guid>
+      <description>Empline Enumeration rustscan -a 10.</description>
+    </item>
     <item>
       <title>Smol</title>
       <link>http://localhost:1313/writeups/tryhackme/smol/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
       <guid>http://localhost:1313/writeups/tryhackme/smol/</guid>
-      <description>Smol Enemuration nmap -sVC 10.</description>
+      <description>Smol Enumeration nmap -sVC 10.</description>
+    </item>
+    <item>
+      <title>tomghost</title>
+      <link>http://localhost:1313/writeups/tryhackme/tomghost/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/tomghost/</guid>
+      <description>Enumeration rustscan -a 10.</description>
+    </item>
+    <item>
+      <title>Internal</title>
+      <link>http://localhost:1313/writeups/tryhackme/internal/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/internal/</guid>
+      <description>Enumeration Lets start with the simple nmap and rustscan.</description>
+    </item>
+    <item>
+      <title>Billing</title>
+      <link>http://localhost:1313/writeups/tryhackme/billing/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/billing/</guid>
+      <description>Enumeration rustscan -a 10.</description>
+    </item>
+    <item>
+      <title>Cooctus Stories</title>
+      <link>http://localhost:1313/writeups/tryhackme/cooctus-stories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/cooctus-stories/</guid>
+      <description>Enumeration rustscan -a 10.</description>
+    </item>
+    <item>
+      <title>Lo-Fi</title>
+      <link>http://localhost:1313/writeups/tryhackme/lo-fi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/lo-fi/</guid>
+      <description>http://machine_ip/?page=../../../../../../flag.txt</description>
+    </item>
+    <item>
+      <title>Lumberjack Turtle</title>
+      <link>http://localhost:1313/writeups/tryhackme/lumberjack-turtle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/lumberjack-turtle/</guid>
+      <description>Enumeration Lets do the simple port scan.</description>
+    </item>
+    <item>
+      <title>Mustacchio</title>
+      <link>http://localhost:1313/writeups/tryhackme/mustacchio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/mustacchio/</guid>
+      <description>Enumeration nmap -sVC 10.</description>
+    </item>
+    <item>
+      <title>The Server From Hell</title>
+      <link>http://localhost:1313/writeups/tryhackme/the-server-from-hell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/the-server-from-hell/</guid>
+      <description>Lets start with enumeration.</description>
+    </item>
+    <item>
+      <title>VulnNet</title>
+      <link>http://localhost:1313/writeups/tryhackme/vulnnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/vulnnet/</guid>
+      <description>Enumeration nmap -sVC 10.</description>
+    </item>
+    <item>
+      <title>VulnNet: Active</title>
+      <link>http://localhost:1313/writeups/tryhackme/vulnnet-active/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/vulnnet-active/</guid>
+      <description>Enumeration nmap -sVC 10.</description>
+    </item>
+    <item>
+      <title>VulnNet: Internal</title>
+      <link>http://localhost:1313/writeups/tryhackme/vulnnet-internal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/vulnnet-internal/</guid>
+      <description>Enumeration nmap -sVC 10.</description>
     </item>
   </channel>
 </rss>

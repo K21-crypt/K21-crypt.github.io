@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>K21</title>
+    <title>TryHackMe on K21</title>
     <link>http://localhost:1313/writeups/tryhackme/</link>
-    <description>Recent content on K21</description>
+    <description>Recent content in TryHackMe on K21</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>k21[@]ncateam.xyz (K21)</managingEditor>
     <webMaster>k21[@]ncateam.xyz (K21)</webMaster>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/writeups/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Billing</title>
+      <link>http://localhost:1313/writeups/tryhackme/billing/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/billing/</guid>
+      <description>Enumeration rustscan -a 10.</description>
+    </item>
   </channel>
 </rss>

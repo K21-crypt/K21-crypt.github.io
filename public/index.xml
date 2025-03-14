@@ -8,14 +8,14 @@
     <language>en</language>
     <managingEditor>k21[@]ncateam.xyz (K21)</managingEditor>
     <webMaster>k21[@]ncateam.xyz (K21)</webMaster>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/writeups/tryhackme/empline/empline/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
-      <guid>http://localhost:1313/writeups/tryhackme/empline/empline/</guid>
-      <description>Empline Enemuration rustscan -a 10.</description>
+      <title>Billing</title>
+      <link>http://localhost:1313/writeups/tryhackme/billing/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
+      <guid>http://localhost:1313/writeups/tryhackme/billing/</guid>
+      <description>Enumeration rustscan -a 10.</description>
     </item>
   </channel>
 </rss>
