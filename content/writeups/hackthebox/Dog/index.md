@@ -1,5 +1,5 @@
 ---
-title: Dog"
+title: "Dog"
 date: 2024-03-17
 draft: false
 description: HackTheBox's Good Room
