@@ -32,13 +32,6 @@
       <description>Enumeration rustscan -a 10.</description>
     </item>
     <item>
-      <title>Dog</title>
-      <link>http://localhost:1313/writeups/hackthebox/dog/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>
-      <guid>http://localhost:1313/writeups/hackthebox/dog/</guid>
-      <description>Enumeration nmap -sVC 10.</description>
-    </item>
-    <item>
       <title>Internal</title>
       <link>http://localhost:1313/writeups/tryhackme/internal/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate><author>k21[@]ncateam.xyz (K21)</author>

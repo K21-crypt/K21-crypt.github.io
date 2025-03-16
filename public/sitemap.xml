@@ -61,21 +61,6 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/writeups/hackthebox/dog/</loc>
-    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/hackthebox/</loc>
-    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/writeups/hackthebox/</loc>
-    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/writeups/tryhackme/internal/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -99,6 +84,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/writeups/tryhackme/cooctus-stories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/writeups/hackthebox/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
