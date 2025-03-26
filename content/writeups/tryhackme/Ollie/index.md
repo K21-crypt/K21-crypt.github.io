@@ -67,7 +67,7 @@ Hmm lets also see that port 1337.
 Interesting.
 Lets move forward.
 And we got the creds.
-![[Pasted image 20250326112621.png]]
+![](Pasted%20image%2020250326112621.png)
 Lets try to login on login page.
 ```
 Username: admin
