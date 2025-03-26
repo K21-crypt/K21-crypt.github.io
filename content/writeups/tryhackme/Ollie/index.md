@@ -44,25 +44,25 @@ PORT     STATE SERVICE REASON
 
 Lets enumerate the port 80.
 Hmm we spawned on a login page.
-![[Pasted image 20250326111427.png]]
+![](Pasted%20image%2020250326111427.png)
 
 Lets enumerate further.
-![[Pasted image 20250326111557.png]]
+![](Pasted%20image%2020250326111557.png)
 
 We might get local file inclusion vulnerability here.
 Lets check.
 Hmm not working.
 
 Doing directory busting gave us many things.
-![[Pasted image 20250326111903.png]]
-![[Pasted image 20250326111915.png]]
+![](Pasted%20image%2020250326111903.png)
+![](Pasted%20image%2020250326111915.png)
 
 
 Found many thing but nothing seems interesting.
-![[Pasted image 20250326112416.png]]
+![](Pasted%20image%2020250326112416.png)
 
 Hmm lets also see that port 1337.
-![[Pasted image 20250326112455.png]]
+![](Pasted%20image%2020250326112455.png)
 
 Interesting.
 Lets move forward.
@@ -74,22 +74,22 @@ Username: admin
 Password: OllieUnixMontgomery!
 ```
 
-![[Pasted image 20250326112807.png]]
+![](Pasted%20image%2020250326112807.png)
 
 ## Exploit
 
 Hmmm.
 After searching for possible exploits of `[phpIPAM IP address management [v1.4.5]`,we can find this.
-![[Pasted image 20250326113019.png]]
+![](Pasted%20image%2020250326113019.png)
 
 Hmm it was using a sql injection to upload php shell.
 Lets try sql injection to test if it is possible.
-![[Pasted image 20250326114401.png]]
+![](Pasted%20image%2020250326114401.png)
 
 We can find this in a edit BGP subnet mapping thing.
 And we found exact number of columns.
-![[Pasted image 20250326114715.png]]
-![[Pasted image 20250326114736.png]]
+![](Pasted%20image%2020250326114715.png)
+![](Pasted%20image%2020250326114736.png)
 
 Hmmm lets try to use that exploit we found on exploitdb.
 Or we can do this.
@@ -100,35 +100,35 @@ Or we can do this.
 ```
 
 So what happening here is we are using UNION attack and uploaded hexed php web shell by doing `INTO OUTFILE`  into `/var/www/html/yourfile.php` cause `/var/www/html/` is the root directory of web page.
-![[Pasted image 20250326120012.png]]
-![[Pasted image 20250326115750.png]]
+![](Pasted%20image%2020250326120012.png)
+![](Pasted%20image%2020250326115750.png)
 
 And we can now use this to execute commands.
-![[Pasted image 20250326115844.png]]
+![](Pasted%20image%2020250326115844.png)
 
 Now we can get reverse shell by [revshell.com](https://www.revshells.com/)
-![[Pasted image 20250326120130.png]]
+![](Pasted%20image%2020250326120130.png)
 
 And we can also get full tty shell from here.
 [full tty shell](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/full-ttys.html)
 
-![[Pasted image 20250326120530.png]]
+![](Pasted%20image%2020250326120530.png)
 
 ## Privelege Escalation
 
 We can get a some creds here.
-![[Pasted image 20250326121029.png]]
+![](Pasted%20image%2020250326121029.png)
 
 But this was not working for user ollie.
 After trying and enumerating different thing,there is the password reuse and we can use same password that we got before for user ollie.
-![[Pasted image 20250326121429.png]]
+![](Pasted%20image%2020250326121429.png)
 
 Now lets try to became root.
 I tried different exploits and tried to find different thing but nothing worked.
 Linpeas is also not working.[linpeas](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)
 Lets also try pspy.[pspy](https://github.com/DominicBreuker/pspy)
 After seeing and trying different things,we can see this.
-![[Pasted image 20250326124201.png]]
+![](Pasted%20image%2020250326124201.png)
 
 Lets see what is it.
 Its nothing.
@@ -145,15 +145,15 @@ ollie@hackerdog:/tmp$
 
 Here we are changing the permission of `/bin/bash` ,giving it with setuid.
 
-![[Pasted image 20250326124516.png]]
+![](Pasted%20image%2020250326124516.png)
 
 And Now we are root.
-![[Pasted image 20250326124647.png]]
+![](Pasted%20image%2020250326124647.png)
 
 ## Done
 
 And done.
-![[Pasted image 20250326124744.png]]
+![](Pasted%20image%2020250326124744.png)
 
 Learned lots of things again.
 I hope you are okay,take care :).
