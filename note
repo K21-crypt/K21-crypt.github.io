@@ -3,3 +3,6 @@ git add .
 git commit -m hello
 git push origin mainhello
 
+git config --global user.email "karunstha859@gmail.com"
+git config --global user.name "K21-crypt"
+

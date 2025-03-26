@@ -1,6 +1,6 @@
 ---
 title: "Ollie"
-date: 2025-13-16
+date: 2025-13-26
 draft: false
 description: TryHackMe's Good Room
 Tags:
