@@ -100,7 +100,7 @@ Hmm interesting.
 And command injection was also possible cause its running a command of `youtube-dl`,so we can use pipe to inject command too.
 ![](Pasted%20image%2020250329010133.png)
 
-Okay lets continue to get shell or something.
+Okay let's continue to get shell or something.
 But again it is not compatible.
 We can't run long commands and many more.
 (we couldn't use spaces i guess)
