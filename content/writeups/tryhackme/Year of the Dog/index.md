@@ -60,6 +60,8 @@ Lets use nikto.
 
 Hmm nothing useful i guess.
 
+## Exploit
+
 There is something on cookie.
 ![](Pasted%20image%2020250330135408.png)
 
@@ -98,6 +100,8 @@ I was trying different thing like trying to tables,columns etc. and got this mes
 Now I have a strong feeling that RCE can be possible.
 Lets try.
 
+## Foothold
+
 And I guess it worked.
 ![](Pasted%20image%2020250330141708.png)
 ```SQL
@@ -120,6 +124,8 @@ We got one password.
 Hmm so there is use of git and gitea.
 ![](Pasted%20image%2020250330142933.png)
 
+## Privelege Escalation with Password Leak
+
 Lets see that `work_analysis`.
 Hmm this is some kind log log file.
 ![](Pasted%20image%2020250330170005.png)
@@ -135,6 +141,8 @@ And we got the flag.
 ```php
 THM{OTE3MTQyNTM5NzRiN2VjNTQyYWM2M2Ji}
 ```
+
+## Privelege Escalation and Docker Escape
 
 Now lets do privelege escalation.
 Lets see that before git thing.
@@ -302,6 +310,7 @@ Now we can go to the main host and there will be `bash` with setuid of root.
 And we are root.
 `THM{MzlhNGY5YWM0ZTU5ZGQ0OGI0YTc0OWRh}`
 
+## Done
 And done.
 
 ![](Pasted%20image%2020250330213711.png)
