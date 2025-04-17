@@ -232,9 +232,9 @@ Lets try.
 And we were successful with the user jake.
 ![](Pasted%20image%2020250318172602.png)
 
-## Privelege Escalation
+## privilele Escalation
 
-Lets try to escalate our priveleges.
+Lets try to escalate our privileles.
 Doing 
 ```bash
 sudo -l
@@ -270,16 +270,16 @@ sudo -u michael /opt/backups/backup.sh
 And we got the reverse shell in our listenner.
 ![](Pasted%20image%2020250318175237.png)
 
-Lets try to escalate our priveleges to root.
+Lets try to escalate our privilele's to root.
 Lets run `linpeas.sh`.
 
 Hmm interesting.
 ![](Pasted%20image%2020250318175758.png)
 ![](Pasted%20image%2020250318180003.png)
 
-Hmm lets try to privelege escalate with docker.
+Hmm lets try to privilele' escalate with docker.
 I have done some of the rooms where we need to use docker.
-Those are little different but first of all lets try docker privelege escalation with [gtfobins](https://gtfobins.github.io/gtfobins/docker/)
+Those are little different but first of all lets try docker privilele' escalation with [gtfobins](https://gtfobins.github.io/gtfobins/docker/)
 ```bash
 docker run -v /:/mnt --rm -it alpine chroot /mnt sh
 ```

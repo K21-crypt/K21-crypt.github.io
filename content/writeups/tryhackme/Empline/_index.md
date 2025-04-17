@@ -132,7 +132,7 @@ And we can put the files name and execute command like this.
 Now we can easily get a rev shell by python3 rev shell.
 ![](Pasted%20image%2020250128215652.png)
 
-## Privelege Escalation
+## privilele Escalation
 
 Lets do further enemuration.
 We can find `config.php` in `/var/www/opencats` directory.
@@ -150,7 +150,7 @@ For now lets enemurate on cracked password and try to login with user `george`.
 And we were successful.
 ![](Pasted%20image%2020250128220432.png)
 
-Now lets try to escalate our privelege to the root.
+Now lets try to escalate our privilege to the root.
 
 After trying to find setuid and leaked password, I came to capabilities and got this.
 ![](Pasted%20image%2020250128221136.png)

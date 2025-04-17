@@ -133,7 +133,7 @@ And we can see the web flag.
 `THM{Nzg2ZWQwYWUwN2UwOTU3NDY5ZjVmYTYw}`
 ![](Pasted%20image%2020250401005100.png)
 
-## Privelege Escalation
+## Privilege Escalation
 
 Lets run linpeas.sh.
 Now i have many questions here.

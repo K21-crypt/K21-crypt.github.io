@@ -155,7 +155,7 @@ Lets try to do ssh on `sys-internal`.
 And we were successful.
 ![](Pasted%20image%2020250302173626.png)
 
-## Privelege escalation
+## Privilege escalation
 
 Lets do privelege escalation.
 Lets first run linpeas.sh here.

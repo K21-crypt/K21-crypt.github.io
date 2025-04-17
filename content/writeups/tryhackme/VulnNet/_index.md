@@ -219,7 +219,7 @@ Now you have a stable shell.
 
 ![](Pasted%20image%2020250306140720.png)
 
-## Privelege Escalation
+## privilege Escalation
 
 Lets continue.
 Lets try to find any setuid.
@@ -298,7 +298,7 @@ Lets now login.
 And we are in as user `server-management`.
 ![](Pasted%20image%2020250306143459.png)
 
-Lets enumerate further to do privelege escalation.
+Lets enumerate further to do privilele escalation.
 And few pdfs.
 ![](Pasted%20image%2020250306143748.png)
 Hmm interesting.
@@ -312,7 +312,7 @@ you can check this.
 And doing `cat /etc/crontab` revealed something.
 ![](Pasted%20image%2020250306144145.png)
 
-So that script is running on cron with root priveleges.
+So that script is running on cron with root privileles.
 Lets check that out.
 ![](Pasted%20image%2020250306144242.png)
 
@@ -344,7 +344,7 @@ we can create a simple line like this.
 `chmod 4777 /bin/bash`
 4.Now the cronjob will execute that script which contain a tar command doing its work.So it will be executes cause at last cause of out files the full tar command would look like this.
 tar czf /var/backups/exploit_backup.tgz --checkpoint=1 --checkpoint-action=exec=sh /home/server-management/Documents/*
-(which is executing our malicious .sh file which will help us in privelege escalation.)
+(which is executing our malicious .sh file which will help us in privilele escalation.)
 5.Now we have to wait a bit and its done.
 
 ```

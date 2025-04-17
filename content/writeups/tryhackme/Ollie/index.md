@@ -114,7 +114,7 @@ And we can also get full tty shell from here.
 
 ![](Pasted%20image%2020250326120530.png)
 
-## Privelege Escalation
+## privilege Escalation
 
 We can get a some creds here.
 ![](Pasted%20image%2020250326121029.png)

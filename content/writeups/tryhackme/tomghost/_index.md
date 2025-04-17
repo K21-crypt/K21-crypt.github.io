@@ -110,7 +110,7 @@ Hmmm.
 And it worked on ssh.
 ![](Pasted%20image%2020250212152050.png)
 
-Now lets do privelege escalation.
+Now lets do privilege escalation.
 And found few things.
 ![](Pasted%20image%2020250212152257.png)
 Hmmmm.

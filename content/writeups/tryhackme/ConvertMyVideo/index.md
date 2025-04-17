@@ -149,9 +149,9 @@ Cause we can also execute command by that cause we can see this.
 So lets login and execute command.
 ![](Pasted%20image%2020250329010433.png)
 
-## Privelege Escalation
+## privilege Escalation
 
-Now we have got the shell,lets try to escalate our priveleges.
+Now we have got the shell,lets try to escalate our privileges.
 Lets run [linpeas.sh](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS).
 Nothing interesting.
 Lets also run [pspy](https://github.com/DominicBreuker/pspy/releases).

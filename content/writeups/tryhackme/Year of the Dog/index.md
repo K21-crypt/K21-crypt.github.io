@@ -124,7 +124,7 @@ We got one password.
 Hmm so there is use of git and gitea.
 ![](Pasted%20image%2020250330142933.png)
 
-## Privelege Escalation with Password Leak
+## Privilege Escalation with Password Leak
 
 Lets see that `work_analysis`.
 Hmm this is some kind log log file.

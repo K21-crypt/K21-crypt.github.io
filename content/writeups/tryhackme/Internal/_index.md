@@ -80,7 +80,7 @@ And we can trigger it.
 ![](Pasted%20image%2020250313130256.png)
 We got the shell.
 
-## Privelege escalation
+## privilege escalation
 
 Lets enumerate further.
 ![](Pasted%20image%2020250313130435.png)
